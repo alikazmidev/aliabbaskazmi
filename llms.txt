@@ -1,0 +1,22 @@
+# Ali Abbas Kazmi
+
+> Web Developer, WordPress Specialist, and Automation Builder based in Islamabad, Pakistan.
+
+Ali builds, manages, fixes, scales, and monitors WordPress sites, and designs automation
+workflows with Zapier and GoHighLevel. He works as a WordPress Expert and Website Manager
+at a UK-based agency, and is currently completing a BS in Computer Science at the
+University of the People while working on microcontroller-based hardware projects.
+
+## Details
+
+- Role: Web Developer
+- Location: Islamabad, Pakistan
+- Stack: WordPress, JavaScript, PHP, Zapier, GoHighLevel
+- Currently learning: Core CS fundamentals, microcontrollers
+- Education: BS Computer Science, University of the People (in progress)
+
+## Contact
+
+- Email: hi@aliabbaskazmi.com
+- LinkedIn: https://www.linkedin.com/in/aliabbaskazmi/
+- GitHub: https://github.com/alikazmidev
