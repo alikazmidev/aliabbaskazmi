@@ -52,29 +52,47 @@
 
 <div class="scanlines" aria-hidden="true"></div>
 
-<main class="editor">
-  <div class="titlebar">
-    <span class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></span>
-    <span class="filename">ali.js</span>
-  </div>
+<header class="waybar">
+  <nav class="workspaces" aria-label="Site">
+    <a href="index.html" class="ws is-active"><span class="ws-dot"></span>1 whoami</a>
+    <a href="blog.html" class="ws"><span class="ws-dot"></span>2 blog</a>
+  </nav>
+  <span class="clock" id="clock" aria-hidden="true"></span>
+</header>
 
-  <pre class="code"><code
-><span class="ln">1</span><span class="c">// building &amp; automating WordPress since 2018</span>
-<span class="ln">2</span><span class="kw">const</span> <span class="var">ali</span> <span class="p">=</span> <span class="p">{</span>
-<span class="ln">3</span>  <span class="k">name</span><span class="p">:</span> <span class="s">'Ali Abbas Kazmi'</span><span class="p">,</span>
-<span class="ln">4</span>  <span class="k">role</span><span class="p">:</span> <span class="s">'Web Developer'</span><span class="p">,</span>
-<span class="ln">5</span>  <span class="k">focus</span><span class="p">:</span> <span class="p">[</span><span class="s">'WordPress'</span><span class="p">, </span><span class="s">'Automation'</span><span class="p">, </span><span class="s">'JavaScript'</span><span class="p">, </span><span class="s">'PHP'</span><span class="p">]</span><span class="p">,</span>
-<span class="ln">6</span>  <span class="k">learning</span><span class="p">:</span> <span class="p">[</span><span class="s">'Core CS fundamentals'</span><span class="p">, </span><span class="s">'Microcontrollers'</span><span class="p">]</span><span class="p">,</span>
-<span class="ln">7</span>  <span class="k">education</span><span class="p">:</span> <span class="s">'BS CS &mdash; University of the People'</span><span class="p">,</span>
-<span class="ln">8</span>  <span class="k">location</span><span class="p">:</span> <span class="s">'Islamabad, PK'</span><span class="p">,</span>
-<span class="ln">9</span>  <span class="k">contact</span><span class="p">:</span> <span class="p">{</span>
-<span class="ln">10</span>    <span class="k">email</span><span class="p">:</span> <span class="s">'<a href="mailto:hi@aliabbaskazmi.com">hi@aliabbaskazmi.com</a>'</span><span class="p">,</span>
-<span class="ln">11</span>    <span class="k">linkedin</span><span class="p">:</span> <span class="s">'<a href="https://www.linkedin.com/in/aliabbaskazmi/" target="_blank" rel="noopener">linkedin.com/in/aliabbaskazmi</a>'</span><span class="p">,</span>
-<span class="ln">12</span>    <span class="k">github</span><span class="p">:</span> <span class="s">'<a href="https://github.com/alikazmidev" target="_blank" rel="noopener">github.com/alikazmidev</a>'</span><span class="p">,</span>
-<span class="ln">13</span>  <span class="p">}</span><span class="p">,</span>
-<span class="ln">14</span><span class="p">}</span><span class="p">;</span>
-<span class="ln">15</span>
-<span class="ln">16</span><span class="var">ali</span><span class="p">.</span><span class="fn">hire</span><span class="p">()</span><span class="p">;</span><span class="cursor">&#9608;</span></code></pre>
+<main class="editor">
+  <p class="pane-path">~/<span class="seg">whoami</span></p>
+
+  <div class="win-body">
+    <div class="fetch">
+      <pre class="ascii" aria-hidden="true"><span class="a1">    /\</span>
+<span class="a2">   /  \</span>
+<span class="a3">  / /\ \</span>
+<span class="a4"> / /  \ \</span>
+<span class="a5">/_/    \_\</span></pre>
+
+      <div class="info">
+        <p class="whoami-line"><span class="fn">guest</span><span class="p">@</span><span class="var">aliabbaskazmi</span></p>
+        <p class="sep">--------------------</p>
+
+        <dl class="fields">
+          <div><dt>OS</dt><dd>Islamabad, PK</dd></div>
+          <div><dt>Role</dt><dd>Web Developer</dd></div>
+          <div><dt>Stack</dt><dd>WordPress &middot; JS &middot; PHP</dd></div>
+          <div><dt>Automation</dt><dd>Zapier &middot; GoHighLevel</dd></div>
+          <div><dt>Learning</dt><dd>CS fundamentals &middot; MCUs</dd></div>
+          <div><dt>Education</dt><dd>BS CS &mdash; UoPeople</dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:hi@aliabbaskazmi.com">hi@aliabbaskazmi.com</a></dd></div>
+          <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/aliabbaskazmi/" target="_blank" rel="noopener">linkedin.com/in/aliabbaskazmi</a></dd></div>
+          <div><dt>GitHub</dt><dd><a href="https://github.com/alikazmidev" target="_blank" rel="noopener">github.com/alikazmidev</a></dd></div>
+        </dl>
+
+        <div class="palette" aria-hidden="true">
+          <span class="sw sw-bg"></span><span class="sw sw-c"></span><span class="sw sw-kw"></span><span class="sw sw-var"></span><span class="sw sw-s"></span><span class="sw sw-fn"></span><span class="sw sw-p"></span><span class="sw sw-text"></span>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
 
 <script src="script.js"></script>

@@ -20,3 +20,7 @@ University of the People while working on microcontroller-based hardware project
 - Email: hi@aliabbaskazmi.com
 - LinkedIn: https://www.linkedin.com/in/aliabbaskazmi/
 - GitHub: https://github.com/alikazmidev
+
+## Blog
+
+- https://aliabbaskazmi.com/blog.html — notes on WordPress, automation, and CS fundamentals.

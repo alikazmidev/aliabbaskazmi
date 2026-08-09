@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Ali Abbas Kazmi</title>
+<meta name="description" content="Notes on WordPress, automation, and CS fundamentals, from Ali Abbas Kazmi.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://aliabbaskazmi.com/blog.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog — Ali Abbas Kazmi">
+<meta property="og:description" content="Notes on WordPress, automation, and CS fundamentals.">
+<meta property="og:url" content="https://aliabbaskazmi.com/blog.html">
+<meta property="og:site_name" content="Ali Abbas Kazmi">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanlines" aria-hidden="true"></div>
+
+<header class="waybar">
+  <nav class="workspaces" aria-label="Site">
+    <a href="index.html" class="ws"><span class="ws-dot"></span>1 whoami</a>
+    <a href="blog.html" class="ws is-active"><span class="ws-dot"></span>2 blog</a>
+  </nav>
+  <span class="clock" id="clock" aria-hidden="true"></span>
+</header>
+
+<main class="editor">
+  <p class="pane-path">~/<span class="seg">blog</span></p>
+
+  <div class="win-body">
+    <div class="tree">
+      <!--
+        To add a new post:
+        1. Copy blog-hello-world.html and rename it (keep the "blog-" prefix
+           so it stays organized, e.g. blog-my-next-post.html).
+        2. Edit its title, date, and content.
+        3. Add a matching <li> entry below, newest first.
+        4. Add a <url> entry to sitemap.xml.
+      -->
+      <ul class="file-list">
+        <li>
+          <a href="blog-hello-world.html">
+            <span class="file-icon" aria-hidden="true">&#9656;</span>
+            <span class="file-name">blog-hello-world.html</span>
+            <span class="file-date">Aug 08, 2026</span>
+          </a>
+          <p class="file-excerpt">Why I'm starting to write things down &mdash; WordPress, automation, and going back to fundamentals.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
